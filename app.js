@@ -3,7 +3,7 @@ const argv = require('./config/yargs').argv;
 const { crearTabla, listarTabla } = require('./multiplicar/multiplicar');
 
 let comando = argv._[0];
-//onsole.log(argv.base);
+//console.log(argv.base);
 
 switch (comando) {
     case 'listar':
