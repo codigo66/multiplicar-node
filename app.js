@@ -1,9 +1,8 @@
-const argv = require('./config/yargs').argv;
 const colors = require('colors');
+const argv = require('./config/yargs').argv;
 const { crearTabla, listarTabla } = require('./multiplicar/multiplicar');
 
 let comando = argv._[0];
-//console.log(comando);
 //onsole.log(argv.base);
 
 switch (comando) {
